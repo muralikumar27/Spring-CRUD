@@ -1,0 +1,53 @@
+body{
+    font-family: Arial;
+    background-color: #1f1e1e;
+    color: #ffffff;
+}
+label,input{
+    margin-top: 25px;
+}
+.id{
+    margin-left: 39px;
+}
+.name{
+    margin-left: 9px;
+}
+.role{
+    margin-left: 19px;
+}
+.salary{
+    margin-left: 6px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.reg-form{
+    background-color: #1f1e1e;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    border: solid white 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 white;
+}
+.add-employee{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.sub-btn{
+    background-color: white;
+    color: black;
+    margin-left: 120px;
+    margin-top: 20px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.sub-btn:hover{
+    box-shadow: 0 0 4px 0 white;
+}
